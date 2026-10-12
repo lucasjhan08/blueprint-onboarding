@@ -24,7 +24,7 @@
   width: 100%;
   height: 3.125rem;
   background-color: #fafafa;
-  box-shadow: 0rem 0.020625rem 0rem 0rem #a6a6aa;
+  box-shadow: 0 0.020625rem 0 0 #a6a6aa;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,4 +54,76 @@
 
 .contentScroll {
   margin-top: 3.125rem;
+  padding: 1rem;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding-left: 0.625rem; */
+  gap: 0.625rem;
+}
+
+.headerUsername {
+  font-family: "Poppins";
+  font-size: 0.8125rem;
+}
+
+.headerSub {
+  font-family: "Poppins";
+  font-size: 0.6875rem;
+  font-weight: 300;
+  color: grey;
+}
+
+.postImage {
+  width: 100%;
+  height: auto;
+  border-radius: 0.625rem;
+  margin-top: 0.6875rem;
+}
+
+.postDesc {
+  font-family: "Poppins";
+  font-size: 0.8125rem;
+  font-weight: 300;
+  margin-top: 0.6875rem;
+}
+
+.footerText {
+  font-family: "Poppins";
+  font-size: 0.625rem;
+  font-weight: 300;
+}
+
+.footer {
+  display: flex;
+  gap: 0.9375rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 0.9375rem;
+}
+
+.send {
+  margin-left: auto;
+}
+
+.date {
+  font-family: "Poppins";
+  font-size: 0.625rem;
+  color: #979797;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.divider {
+  width: calc(100% + 2rem);
+  border: none;
+  border-top: 0.0625rem solid #d9d9d9;
+  margin: 1rem -1rem;
 }
